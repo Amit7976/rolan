@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .font-inter {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-gradient-to-b from-[#F8F5FC] to-white">
+        <section class="font-sans">
+            <div
+                class="flex flex-col lg:flex-row justify-between max-w-[1440px] mx-auto p-5 lg:px-9 lg:py-12 lg:gap-[288px]">
+                <!-- Left Column -->
+                <div class="w-full flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
+                    <h4 class="text-[20px] font-semibold lg:font-medium text-[#F84C6F]">Contact Us</h4>
+                    <h1 class="text-2xl lg:text-[48px] font-bold text-black mt-2 leading-normal font-inter">
+                        Do you want to discuss something?
+                    </h1>
+                    <p class="text-sm lg:text-[18px] font-normal text-black mt-2 tracking-[0.36px] lg:leading-[30px]">
+                        We’re on a mission to make the life of marketers easier. Get in touch if you have something to
+                        discuss about it
+                    </p>
+                </div>
+
+                <!-- Right Column -->
+                <div class="w-full mt-10">
+                    <img src="./img/Group-4666.webp" alt="Group 4666" class="max-w-full" />
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="max-w-[1440px] w-full mx-auto px-4 lg:px-9 flex flex-col lg:flex-row gap-4 font-inter">
+            <div
+                class="w-full lg:w-[70%] p-4 lg:p-8 bg-white rounded-xl shadow-[0_4px_16px_rgba(159,162,191,0.18),0_2px_2px_rgba(159,162,191,0.32)]">
+                <h2 class="text-black text-2xl font-semibold leading-9">
+                    Contact Us
+                </h2>
+
+                <form action="/contact/#wpcf7-f4733-o1" method="post" class="mt-8 flex flex-col gap-6">
+                    <!-- hidden WP fields -->
+                    <input type="hidden" name="_wpcf7" value="4733" />
+                    <input type="hidden" name="_wpcf7_version" value="5.9.6" />
+                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
+
+                    <!-- First & Last name -->
+                    <div class="flex flex-col lg:flex-row gap-4 w-full">
+                        <input type="text" name="firstName" maxlength="80" placeholder="First Name"
+                            class="w-full px-3 py-1 lg:p-5 border border-gray-400 rounded-md text-sm lg:text-base leading-7" />
+                        <input type="text" name="lastName" maxlength="80" placeholder="Last Name"
+                            class="w-full px-3 py-1 lg:p-5 border border-gray-400 rounded-md text-sm lg:text-base leading-7" />
+                    </div>
+
+                    <!-- Email -->
+                    <input type="email" name="email-544" maxlength="80" placeholder="Work Email"
+                        class="w-full px-3 py-1 lg:p-5 border border-gray-400 rounded-md text-sm lg:text-base leading-7" />
+
+                    <!-- Message -->
+                    <textarea name="message" rows="4" placeholder="Message"
+                        class="w-full px-5 py-5 border border-gray-400 rounded-md text-base leading-7"></textarea>
+
+                    <p class="text-xs lg:text-base font-medium">By filling this, I agree to be contacted by ManagePlus
+                        team</p>
+                    <button type="submit"
+                        class="self-start px-12 py-3.5 bg-[#6457F9] text-white rounded-md hover:scale-105 duration-300 transition">
+                        Submit
+                    </button>
+                </form>
+            </div>
+            <div
+                class="box-border p-8 bg-white w-full lg:w-[30%] rounded-lg shadow-[0_4px_16px_rgba(159,162,191,0.18),0_2px_2px_rgba(159,162,191,0.32)] flex flex-col gap-6 font-inter">
+                <h2 class="text-black text-2xl font-semibold leading-9 font-sans">
+                    Get in Touch
+                </h2>
+
+                <!-- Address -->
+                <div>
+                    <h3 class="text-black text-xl font-semibold font-sans">Address</h3>
+                    <p class="text-black text-base font-normal leading-[30px] mt-2">
+                        Symentix Technologies Private Limited<br />
+                        26-A, Janki Vihar, Kalyanpura, Sanganer, Jaipur<br />
+                        India, Pin-302029
+                    </p>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-black text-xl font-semibold font-sans">Contact</h3>
+                    <p class="text-black text-base font-normal leading-[30px] mt-2">
+                        Question? Feedback? Anything else? Please reach out to us &amp;
+                        we’d love to connect with you.
+                    </p>
+                    <ul class="flex flex-col gap-4 mt-4">
+                        <li class="flex items-center gap-2 text-base leading-[30px]">
+                            <img src="https://manageplus.io/wp-content/uploads/2024/12/Mask-group.png" alt="Email"
+                                class="w-5" />
+                            <a href="mailto:dashrath@manageplus.io"
+                                class="text-black hover:text-blue-600">dashrath@manageplus.io</a>
+                        </li>
+                        <li class="flex items-center gap-2 text-base leading-[30px]">
+                            <img src="https://manageplus.io/wp-content/uploads/2024/12/Mask-group-1.png" alt="Phone"
+                                class="w-5" />
+                            <a href="tel:+919571073055" class="text-black hover:text-blue-600">+91&nbsp;9571073055</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Careers -->
+                <div>
+                    <h3 class="text-black text-xl font-medium">Careers</h3>
+                    <p class="text-black text-base font-normal leading-[30px] mt-2">
+                        If you are passionate about creating something unique and making things
+                        better for marketers, we’d love to have you onboard.
+                    </p>
+                    <div class="mt-4">
+                        <a href="/job/" class="text-[#6457F9] hover:underline flex items-center font-medium">
+                            See open positions
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="4" d="m19 12l12 12l-12 12" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <section
+        class="mx-auto flex max-w-[1440px] flex-col items-center gap-[50px] px-9 py-10 lg:py-20 font-inter antialiased">
+        <h2 class="m-0 text-center font-normal text-black text-xl lg:text-3xl">
+            More than 700 companies are managing their day to day marketing activities
+            with ManagePlus.io to grow their business
+        </h2>
+
+        <div class="flex w-full items-center justify-center gap-14 lg:gap-10 overflow-x-scroll lg:overflow-auto">
+            <img src="./img/logo.png" alt="brandsjet" class="max-w-full w-28" />
+            <img src="./img/logo.png" alt="airful" class="max-w-full w-28" />
+            <img src="./img/logo.png" alt="fosterDigital" class="max-w-full w-28" />
+            <img src="./img/logo.png" alt="visualizeVision" class="max-w-full w-28" />
+            <img src="./img/logo.png" alt="upro360" class="max-w-full w-28" />
+            <img src="./img/logo.png" alt="eraqi" class="max-w-full w-28" />
+        </div>
+    </section>
+
+
+
+
+    <section class="mx-auto mb-8 max-w-[1440px] px-9 py-[30px] font-inter antialiased">
+        <div
+            class="flex flex-col lg:flex-row justify-between gap-5 lg:gap-[42px] rounded-lg bg-[url('./img/hero-about-bg.webp')] bg-cover bg-center p-6 lg:py-0">
+            <!-- Image -->
+            <div class="hidden lg:block">
+                <img src="./img/smiley-businesswoman.webp" alt="Smiling businesswoman" class="h-[168px] max-w-full" />
+            </div>
+
+            <!-- Text -->
+            <div class="flex flex-col justify-center gap-[18px] text-center lg:text-left">
+                <h2
+                    class="m-0 text-left font-labgrotesque text-lg lg:text-[42px] font-bold lg:leading-[42px] text-white">
+                    Ready to supercharge your marketing?
+                </h2>
+                <p class="m-0 text-sm lg:text-[18px] lg:leading-[30px] text-white">
+                    Streamline your Tasks, Content Calendar, Scheduling & Posting at one
+                    place
+                </p>
+            </div>
+
+            <!-- Button -->
+            <div class="flex items-center justify-center">
+                <a href="https://app.manageplus.io/auth/register/1?trial=true" target="_blank" rel="noopener"
+                    class="rounded-lg border border-[#6457f9] bg-[#6457f9] px-[27px] py-2 lg:py-[17px] text-xs lg:text-[18px] font-semibold leading-5 tracking-wide text-white transition-colors duration-150 hover:bg-[#574bdb] hover:border-[#574bdb]">
+                    Start 28 Day Trial
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
