@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <style>
-        .font-inter {
+        * {
             font-family: 'Inter', sans-serif;
+        }
+
+        .fnt-pop {
+            font-family: 'Poppins', sans-serif !important;
         }
     </style>
 </head>
 <body>
 
-    <section class="overflow-x-hidden">
+    <section class="overflow-x-hidden bg-neutral-100 ">
         <header
             class="flex sm:flex-row flex-col m-auto justify-between sm:items-center py-4 px-4 sm:px-[37px] shadow-xl h-[100px] bg-white absolute top-0 left-0 w-full hidden">
             <div class="flex justify-between items-center">
@@ -50,33 +58,40 @@
         </header>
 
 
-        <img src="/img/homeBanner.avif" alt="Home Banner" class="w-[200vw] max-w-[200vw] sm:w-full">
+        <img src="/img/homeHero.avif" alt="Home Banner" class="w-[200vw] max-w-[200vw] sm:w-[1440px] mx-auto">
 
-        <div class="w-full sm:w-1/2 sm:p-10 sm:absolute -mt-14 sm:top-20 lg:top-1/4 right-0">
-            <div class="flex justify-center items-center mb-6 relative w-full lg:w-2/3">
-                <img class="w-full" src="/img/verifyBanner.png" alt="" title="Home">
-                <h3
-                    class="text-4xl sm:text-3xl lg:text-5xl text-white absolute right-12 sm:right-18 lg:right-24 font-extrabold font-sans mb-2">
-                    Pure <br class="hidden sm:block"> Water</h3>
+        <div class="w-full lg:p-10 lg:absolute -mt-24 sm:top-20 lg:top-[171px] right-0 sm:w-[720px]">
+
+            <div
+                class="flex justify-center items-center relative w-full  lg:w-[561.69px] h-[269px] aspect-[561.69/269.00]">
+                <img class="w-full lg:hidden" src="/img/pureWaterVerifyMobile.png" alt="" title="Home">
+                <img class="w-full hidden lg:block" src="/img/pureWaterVerifyPC.png" alt="" title="Home">
             </div>
-            <h1
-                class="text-3xl sm:text-[2.7vw] lg:text-[3vw] font-inter font-semibold text-center sm:text-left text-[#132748]">
-                <span class="text-[#FE7900]">Smart Water Solutions</span>
-                <span>for <br class="hidden md:block"> Corporate & Industrial Needs</span>
-            </h1>
-            <p
-                class="text-lg sm:text-[1.2vw] lg:text-[1.2vw] font-inter mt-4 text-center sm:text-left font-medium text-[#132748] pl-2">
-                R-500
-                Dispenser
-                • Rental RO Plants •
-                Wastewater Treatment Systems</p>
-            <div class="mt-6 sm:mt-0 lg:mt-11 flex flex-col lg:flex-row gap-4 lg:gap-5 w-full lg:w-auto p-6 lg:p-0">
-                <a href="/contact-us" class="w-full lg:w-auto"><button
-                        class="bg-[#4FA6F2] py-3 px-7 rounded-lg font-semibold cursor-pointer text-white w-full">Get
-                        Quote</button></a>
-                <a href="/r-500" class="w-full lg:w-auto"><button
-                        class="py-2.5 px-5 rounded-lg font-semibold cursor-pointer text-[#132748] bg-transparent border-2 border-[#132748] w-full">Explore
-                        Our Product</button></a>
+
+            <div class="px-[18px] lg:px-[0px] -mt-10 sm:-mt-0">
+                <h1 className="lg:w-[638px] justify-center">
+                    <span
+                        class="text-orange-500 text-[1.769rem] lg:text-[2.875rem] font-bold leading-[40.015px] -tracking-[0.308px] lg:leading-[65px]">Smart
+                        Water
+                        Solutions</span>
+                    <span
+                        class="text-blue-950 text-[1.769rem] lg:text-[2.875rem] font-bold leading-[40.015px] -tracking-[0.308px] lg:leading-[65px]">
+                        for
+                        Corporate & Industrial Needs</span>
+                </h1>
+
+                <p class="text-blue-950 text-[0.79rem] lg:text-[20px] font-medium leading-[19.084px]  sm:leading-[31px] -tracking-[0.5px] mt-[8.88px] lg:mt-[16px]">R-500
+                    Dispenser
+                    • Rental RO Plants • Wastewater Treatment Systems</p>
+
+                <div class="mt-[31px] lg:mt-[46px] flex gap-[21px] lg:gap-[32px] w-fit">
+                    <a href="/contact-us" class="w-full lg:w-auto"><button
+                            class="bg-[#4FA6F2] py-[12px] px-[16px] rounded-lg font-semibold cursor-pointer text-white border-2 border-[#4FA6F2] w-[151px]">Get
+                            Quote</button></a>
+                    <a href="/r-500" class="w-full lg:w-auto"><button
+                            class="py-[12px] px-[16px] rounded-lg font-semibold cursor-pointer text-[#132748] bg-transparent border-2 border-[#132748] w-[197px]">Explore
+                            Our Product</button></a>
+                </div>
             </div>
         </div>
     </section>
