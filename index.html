@@ -21,54 +21,24 @@
 </head>
 <body>
 
-    <section class="overflow-x-hidden bg-neutral-100 ">
-        <header
-            class="flex sm:flex-row flex-col m-auto justify-between sm:items-center py-4 px-4 sm:px-[37px] shadow-xl h-[100px] bg-white absolute top-0 left-0 w-full hidden">
-            <div class="flex justify-between items-center">
-                <div class="sm:w-40 w-24 ">
-                    <a href="/"><img class="w-full" src="/img/logo.png" alt="" title="Home"></a>
-                </div>
-            </div>
-            <div id="navMenu"
-                class="sm:flex hidden sm:static absolute top-full left-0 w-full bg-white sm:bg-transparent sm:w-auto">
-                <nav class="flex lg:flex-row flex-col gap-5 lg:gap-10 lg:items-center w-full">
-                    <ul id="menu-header-menu"
-                        class="flex lg:flex-row flex-col gap-4 lg:gap-11 text-lg font-semibold lg:items-center w-full lg:w-auto p-4 lg:p-0">
-                        <li id="menu-item-337"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-337">
-                            <a href="https://rolan.in/" aria-current="page" class="">Home</a>
-                        </li>
-                        <li id="menu-item-336"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-336"><a
-                                href="https://rolan.in/r-500/" class="">Water Dispenser</a></li>
-                        <li id="menu-item-339"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-339"><a
-                                href="https://rolan.in/service/" class="">Solution</a></li>
-                        <li id="menu-item-340"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-340"><a
-                                href="/resource" class="">Resource</a></li>
-                    </ul>
-                    <a href="/contact-us" class="block lg:inline-block px-4 lg:px-0 pb-4 lg:pb-0 lg:w-auto">
-                        <button
-                            class="bg-[#4FA6F2] py-3 px-7 rounded-lg font-semibold cursor-pointer text-white lg:w-auto">Book
-                            A Call</button>
-                    </a>
-                </nav>
-            </div>
-        </header>
+<section class="overflow-x-hidden bg-neutral-100 relative py-10 sm:py-0">
 
+    <div class="w-full max-w-[720px] sm:max-w-[1440px]">
 
-        <img src="/img/homeHero.avif" alt="Home Banner" class="w-[200vw] max-w-[200vw] sm:w-[1440px] mx-auto">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/homeHero.avif" alt="Home Banner"
+            class="sm:w-full w-[200vw] max-w-[200vw] sm:max-w-[1440px]">
 
         <div class="w-full lg:p-10 lg:absolute -mt-24 sm:top-20 lg:top-[171px] right-0 sm:w-[720px]">
 
             <div
                 class="flex justify-center items-center relative w-full  lg:w-[561.69px] h-[269px] aspect-[561.69/269.00]">
-                <img class="w-full lg:hidden" src="/img/pureWaterVerifyMobile.png" alt="" title="Home">
-                <img class="w-full hidden lg:block" src="/img/pureWaterVerifyPC.png" alt="" title="Home">
+                <img class="w-full lg:hidden"
+                    src="<?php echo get_template_directory_uri(); ?>/img/pureWaterVerifyMobile.png" alt="" title="Home">
+                <img class="w-full hidden lg:block"
+                    src="<?php echo get_template_directory_uri(); ?>/img/pureWaterVerifyPC.png" alt="" title="Home">
             </div>
 
-            <div class="px-[18px] lg:px-[0px] -mt-10 sm:-mt-0">
+            <div class="px-[20px] lg:px-[0px] -mt-10 sm:-mt-0">
                 <h1 className="lg:w-[638px] justify-center">
                     <span
                         class="text-orange-500 text-[1.769rem] lg:text-[2.875rem] font-bold leading-[40.015px] -tracking-[0.308px] lg:leading-[65px]">Smart
@@ -80,7 +50,9 @@
                         Corporate & Industrial Needs</span>
                 </h1>
 
-                <p class="text-blue-950 text-[0.79rem] lg:text-[20px] font-medium leading-[19.084px]  sm:leading-[31px] -tracking-[0.5px] mt-[8.88px] lg:mt-[16px]">R-500
+                <p
+                    class="text-blue-950 text-[0.79rem] lg:text-[20px] font-medium leading-[19.084px]  sm:leading-[31px] -tracking-[0.5px] mt-[8.88px] lg:mt-[16px]">
+                    R-500
                     Dispenser
                     • Rental RO Plants • Wastewater Treatment Systems</p>
 
@@ -94,7 +66,7 @@
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
 </body>
 </html>
